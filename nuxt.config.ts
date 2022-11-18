@@ -7,4 +7,15 @@ export default defineNuxtConfig({
         autoprefixer: {},
       },
     },
+      app: {
+        head: {
+          title: 'Registration System',
+          meta: [
+            { name: 'description', content: 'type hereee'}
+          ],
+          link: [
+            { rel:'preconnect', href:'https://fonts.googleapis.com' }
+          ]
+        }
+      }
   })
