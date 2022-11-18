@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
       app: {
         head: {
-          title: 'Registration System',
+          title: 'Login',
           meta: [
             { name: 'description', content: 'type hereee'}
           ],
